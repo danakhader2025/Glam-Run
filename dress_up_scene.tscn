@@ -1,0 +1,296 @@
+[gd_scene load_steps=24 format=3 uid="uid://dv8psp7onsrns"]
+
+[ext_resource type="Script" path="res://dress_up_scene.gd" id="1_bde0u"]
+[ext_resource type="Texture2D" uid="uid://dnacwsn2f1qr7" path="res://DeWatermark.ai_1738769398357.png" id="1_td51h"]
+[ext_resource type="Texture2D" uid="uid://bndds2n71514c" path="res://wardrobe-cartoon-wardrobe-isolated-on-white-background-empty-open-wardrobe-with-hanger-shelves-and-drawers-vector-removebg-preview.png" id="2_sl0jy"]
+[ext_resource type="Texture2D" uid="uid://cqnbbcx0mxvr8" path="res://Clothes/images/Clothes-Full_04.png" id="3_64im2"]
+[ext_resource type="Texture2D" uid="uid://bmemu8mwewx1f" path="res://Clothes/images/Clothes-Full_03.png" id="4_alifm"]
+[ext_resource type="Texture2D" uid="uid://ge48ohf1h4cs" path="res://Clothes/images/Clothes-Full_05.png" id="5_m6gl4"]
+[ext_resource type="Texture2D" uid="uid://cotp0oak34r7m" path="res://Clothes/images/Clothes-Full_02.png" id="6_wpypq"]
+[ext_resource type="Texture2D" uid="uid://fo8001gn2yb1" path="res://Clothes/images/Clothes-Full_22.png" id="7_w2j8r"]
+[ext_resource type="Texture2D" uid="uid://blq7wx0sdpu4g" path="res://Clothes/images/Clothes-Full_26.png" id="8_bcyt0"]
+[ext_resource type="Texture2D" uid="uid://mpr4c47dln1b" path="res://Clothes/images/Clothes-Full_15.png" id="9_m1rj1"]
+[ext_resource type="Texture2D" uid="uid://bx6e72j6l4wig" path="res://Clothes/images/Clothes-Full_19.png" id="10_lti7w"]
+[ext_resource type="Texture2D" uid="uid://dd5srdvk80o2x" path="res://Clothes/images/Clothes-Full_23.png" id="11_fok6a"]
+[ext_resource type="Texture2D" uid="uid://bfxt3raglb2r1" path="res://Clothes/images/Clothes-Full_28.png" id="12_1xdvm"]
+[ext_resource type="Texture2D" uid="uid://crlapkotff72h" path="res://Clothes/images/Clothes-Full_27.png" id="13_pjmwa"]
+[ext_resource type="Texture2D" uid="uid://cii4ps1axvc7u" path="res://Clothes/images/Clothes-Full_17.png" id="14_8nf0x"]
+[ext_resource type="Texture2D" uid="uid://ceyufe6oh7b8u" path="res://Clothes/images/Clothes-Full_25.png" id="15_20y6u"]
+[ext_resource type="Texture2D" uid="uid://c574o40wj8ia4" path="res://Clothes/images/Clothes-Full_20.png" id="16_28aut"]
+[ext_resource type="Texture2D" uid="uid://76k3bf00lw0y" path="res://Clothes/images/Clothes-Full_29.png" id="17_1qcv2"]
+[ext_resource type="Texture2D" uid="uid://chahq6gloap7y" path="res://Clothes/images/Clothes-Full_37.png" id="18_xqcga"]
+[ext_resource type="Texture2D" uid="uid://i7fwktp7whr7" path="res://Clothes/images/Clothes-Full_39.png" id="19_xep1t"]
+[ext_resource type="Texture2D" uid="uid://m5jmgbil0u0g" path="res://Clothes/images/Clothes-Full_41.png" id="20_ej1jw"]
+[ext_resource type="Texture2D" uid="uid://j2ukiq5ikhrh" path="res://Clothes/images/Clothes-Full_31.png" id="21_xppmv"]
+[ext_resource type="FontFile" uid="uid://qgc4vi5osk7v" path="res://Assets/Fonts/Star Choco.ttf" id="23_4bk3y"]
+
+[node name="DressUpScene" type="Node2D"]
+script = ExtResource("1_bde0u")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(305, 325)
+scale = Vector2(1.4475, 1.21295)
+texture = ExtResource("1_td51h")
+
+[node name="Closet" type="Sprite2D" parent="Background"]
+position = Vector2(388.45, -3.11722)
+scale = Vector2(0.91323, 1.61456)
+texture = ExtResource("2_sl0jy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(220.5, 351.965)
+scale = Vector2(2.55128, 2.59261)
+texture = ExtResource("3_64im2")
+
+[node name="Buttons" type="Node2D" parent="."]
+
+[node name="Shirt 1" type="Button" parent="Buttons"]
+offset_left = 759.0
+offset_top = -3.0
+offset_right = 952.0
+offset_bottom = 204.0
+icon = ExtResource("4_alifm")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shirt 2" type="Button" parent="Buttons"]
+offset_left = 754.0
+offset_top = 137.0
+offset_right = 946.0
+offset_bottom = 350.0
+icon = ExtResource("5_m6gl4")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shirt 3" type="Button" parent="Buttons"]
+offset_left = 756.0
+offset_top = 277.0
+offset_right = 948.0
+offset_bottom = 490.0
+icon = ExtResource("6_wpypq")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shirt 4" type="Button" parent="Buttons"]
+offset_left = 954.0
+offset_top = 434.0
+offset_right = 1146.0
+offset_bottom = 647.0
+icon = ExtResource("7_w2j8r")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shirt 5" type="Button" parent="Buttons"]
+offset_left = 758.0
+offset_top = 433.0
+offset_right = 950.0
+offset_bottom = 646.0
+icon = ExtResource("8_bcyt0")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Dress 1" type="Button" parent="Buttons"]
+offset_left = 1014.0
+offset_top = 74.0
+offset_right = 1206.0
+offset_bottom = 287.0
+icon = ExtResource("9_m1rj1")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Dress 2" type="Button" parent="Buttons"]
+offset_left = 1006.0
+offset_top = 245.0
+offset_right = 1198.0
+offset_bottom = 458.0
+icon = ExtResource("10_lti7w")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Dress 3" type="Button" parent="Buttons"]
+offset_left = 908.0
+offset_top = 16.0
+offset_right = 1100.0
+offset_bottom = 229.0
+icon = ExtResource("11_fok6a")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Dress 4" type="Button" parent="Buttons"]
+offset_left = 900.0
+offset_top = 203.0
+offset_right = 1106.0
+offset_bottom = 424.0
+icon = ExtResource("12_1xdvm")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Skirt 1" type="Button" parent="Buttons"]
+offset_left = 643.0
+offset_top = 190.0
+offset_right = 791.0
+offset_bottom = 372.0
+icon = ExtResource("13_pjmwa")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Skirt 2" type="Button" parent="Buttons"]
+offset_left = 660.0
+offset_top = 314.0
+offset_right = 808.0
+offset_bottom = 496.0
+icon = ExtResource("14_8nf0x")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Pants 1" type="Button" parent="Buttons"]
+offset_left = 618.0
+offset_top = 428.0
+offset_right = 810.0
+offset_bottom = 641.0
+icon = ExtResource("15_20y6u")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shoes 1" type="Button" parent="Buttons"]
+offset_left = 551.0
+offset_top = 5.0
+offset_right = 667.0
+offset_bottom = 149.0
+icon = ExtResource("16_28aut")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shoes 2" type="Button" parent="Buttons"]
+offset_left = 658.0
+offset_top = 40.0
+offset_right = 741.0
+offset_bottom = 161.0
+icon = ExtResource("17_1qcv2")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shoes 3" type="Button" parent="Buttons"]
+offset_left = 558.0
+offset_top = 273.0
+offset_right = 651.0
+offset_bottom = 369.0
+icon = ExtResource("18_xqcga")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shoes 4" type="Button" parent="Buttons"]
+offset_left = 562.0
+offset_top = 135.0
+offset_right = 665.0
+offset_bottom = 274.0
+icon = ExtResource("19_xep1t")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Bow 1" type="Button" parent="Buttons"]
+offset_left = 555.0
+offset_top = 371.0
+offset_right = 658.0
+offset_bottom = 510.0
+icon = ExtResource("20_ej1jw")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Bow 2" type="Button" parent="Buttons"]
+offset_left = 554.0
+offset_top = 483.0
+offset_right = 657.0
+offset_bottom = 622.0
+icon = ExtResource("21_xppmv")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Clothes" type="Node2D" parent="."]
+
+[node name="Head" type="Sprite2D" parent="Clothes"]
+position = Vector2(204, 119)
+scale = Vector2(2.2, 2.2)
+
+[node name="Feet" type="Sprite2D" parent="Clothes"]
+position = Vector2(194, 587)
+scale = Vector2(3, 3)
+
+[node name="Skirts" type="Sprite2D" parent="Clothes"]
+position = Vector2(207, 440)
+scale = Vector2(2.8, 2.8)
+
+[node name="Skirts2" type="Sprite2D" parent="Clothes"]
+position = Vector2(223, 428)
+scale = Vector2(2.8, 2.8)
+
+[node name="Pants" type="Sprite2D" parent="Clothes"]
+position = Vector2(205, 476)
+scale = Vector2(2.8, 2.8)
+
+[node name="Top" type="Sprite2D" parent="Clothes"]
+position = Vector2(207, 336)
+scale = Vector2(2.5, 2.5)
+
+[node name="Top2" type="Sprite2D" parent="Clothes"]
+position = Vector2(210, 325)
+scale = Vector2(2.5, 2.5)
+
+[node name="Body" type="Sprite2D" parent="Clothes"]
+position = Vector2(207, 359)
+scale = Vector2(2.5, 2.5)
+
+[node name="Body2" type="Sprite2D" parent="Clothes"]
+position = Vector2(222, 352)
+scale = Vector2(2.5, 2.5)
+
+[node name="Body3" type="Sprite2D" parent="Clothes"]
+position = Vector2(208, 393)
+scale = Vector2(2.5, 2.5)
+
+[node name="HomeButton" type="Button" parent="."]
+offset_left = 8.0
+offset_top = 11.0
+offset_right = 59.0
+offset_bottom = 39.0
+theme_override_colors/font_color = Color(1, 0.588235, 1, 1)
+theme_override_fonts/font = ExtResource("23_4bk3y")
+text = "Home"
+
+[connection signal="pressed" from="Buttons/Shirt 1" to="." method="_on_shirt_1_pressed"]
+[connection signal="pressed" from="Buttons/Shirt 2" to="." method="_on_shirt_2_pressed"]
+[connection signal="pressed" from="Buttons/Shirt 3" to="." method="_on_shirt_3_pressed"]
+[connection signal="pressed" from="Buttons/Shirt 4" to="." method="_on_shirt_4_pressed"]
+[connection signal="pressed" from="Buttons/Shirt 5" to="." method="_on_shirt_5_pressed"]
+[connection signal="pressed" from="Buttons/Dress 1" to="." method="_on_dress_1_pressed"]
+[connection signal="pressed" from="Buttons/Dress 2" to="." method="_on_dress_2_pressed"]
+[connection signal="pressed" from="Buttons/Dress 3" to="." method="_on_dress_3_pressed"]
+[connection signal="pressed" from="Buttons/Dress 4" to="." method="_on_dress_4_pressed"]
+[connection signal="pressed" from="Buttons/Skirt 1" to="." method="_on_skirt_1_pressed"]
+[connection signal="pressed" from="Buttons/Skirt 2" to="." method="_on_skirt_2_pressed"]
+[connection signal="pressed" from="Buttons/Pants 1" to="." method="_on_pants_1_pressed"]
+[connection signal="pressed" from="Buttons/Shoes 1" to="." method="_on_shoes_1_pressed"]
+[connection signal="pressed" from="Buttons/Shoes 2" to="." method="_on_shoes_2_pressed"]
+[connection signal="pressed" from="Buttons/Shoes 3" to="." method="_on_shoes_3_pressed"]
+[connection signal="pressed" from="Buttons/Shoes 4" to="." method="_on_shoes_4_pressed"]
+[connection signal="pressed" from="Buttons/Bow 1" to="." method="_on_bow_1_pressed"]
+[connection signal="pressed" from="Buttons/Bow 2" to="." method="_on_bow_2_pressed"]
+[connection signal="pressed" from="HomeButton" to="." method="_on_home_button_pressed"]
